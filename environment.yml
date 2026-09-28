@@ -1,0 +1,23 @@
+# Setup specification; this is not a solved environment lockfile.
+name: gse260666
+channels:
+  - conda-forge
+  - bioconda
+dependencies:
+  - python=3.11
+  - r-base=4.4.3
+  - sra-tools=3.4.1
+  - fastqc=0.12.1
+  - multiqc=1.35
+  - star=2.7.11b
+  - subread=2.1.1
+  - pigz
+  - curl
+  - zlib
+  - libuv
+  - freetype
+  - fontconfig
+  - openssl
+  - libcurl
+  - pkg-config
+  - r-mgcv
