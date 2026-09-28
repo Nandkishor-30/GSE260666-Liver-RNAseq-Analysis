@@ -167,7 +167,7 @@ See [VALIDATION.md](VALIDATION.md) for the validation records, comparison method
 - [GENCODE human release 48](https://www.gencodegenes.org/human/release_48.html).
 - [DESeq2](https://bioconductor.org/packages/DESeq2/) and [clusterProfiler](https://bioconductor.org/packages/clusterProfiler/) documentation.
 
-Public data and third-party software retain their respective usage terms. No license for the repository author's code has been selected in this package.
+The MIT License applies to the analysis code I wrote for this project. The original GSE260666 data, GENCODE annotation, and third-party software retain their own usage terms.
 
 ## Author
 
