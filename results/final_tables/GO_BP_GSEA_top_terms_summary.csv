@@ -1,0 +1,61 @@
+"Comparison","Direction","ID","Description","NES","p.adjust","setSize"
+"NAFL_vs_Control","Higher in NAFL","GO:0006873","intracellular monoatomic ion homeostasis",1.83292687468057,7.11688121213534e-06,414
+"NAFL_vs_Control","Higher in NAFL","GO:0030003","intracellular monoatomic cation homeostasis",1.82696858418649,9.05032891599571e-06,407
+"NAFL_vs_Control","Higher in NAFL","GO:0016032","viral process",1.85790149363411,1.04847131226208e-05,393
+"NAFL_vs_Control","Higher in NAFL","GO:0050801","monoatomic ion homeostasis",1.74878548376227,1.09639948297243e-05,479
+"NAFL_vs_Control","Higher in NAFL","GO:0007033","vacuole organization",1.95022387447245,1.79435265481252e-05,223
+"NAFL_vs_Control","Higher in NAFL","GO:0055080","monoatomic cation homeostasis",1.76370942807083,1.79435265481252e-05,470
+"NAFL_vs_Control","Higher in NAFL","GO:0043068","positive regulation of programmed cell death",1.74324907348878,2.7810525630161e-05,472
+"NAFL_vs_Control","Higher in NAFL","GO:0010638","positive regulation of organelle organization",1.70909200263706,5.71912914106469e-05,450
+"NAFL_vs_Control","Higher in NAFL","GO:0043254","regulation of protein-containing complex assembly",1.76043523672647,8.94961939894835e-05,384
+"NAFL_vs_Control","Higher in NAFL","GO:0043065","positive regulation of apoptotic process",1.68371759031223,8.94961939894835e-05,458
+"NAFL_vs_Control","Higher in Control","GO:1901606","alpha-amino acid catabolic process",-2.57831831633285,2.21019774294929e-07,89
+"NAFL_vs_Control","Higher in Control","GO:0009063","amino acid catabolic process",-2.47496506037984,4.40672853621991e-07,101
+"NAFL_vs_Control","Higher in Control","GO:0170035","L-amino acid catabolic process",-2.39054781581779,1.04847131226208e-05,68
+"NAFL_vs_Control","Higher in Control","GO:1901605","alpha-amino acid metabolic process",-2.07756679537403,1.04847131226208e-05,186
+"NAFL_vs_Control","Higher in Control","GO:0170039","proteinogenic amino acid metabolic process",-2.11671722276166,1.29080582999898e-05,156
+"NAFL_vs_Control","Higher in Control","GO:0016054","organic acid catabolic process",-1.99005191677099,1.29080582999898e-05,227
+"NAFL_vs_Control","Higher in Control","GO:0046395","carboxylic acid catabolic process",-1.99005191677099,1.29080582999898e-05,227
+"NAFL_vs_Control","Higher in Control","GO:0170033","L-amino acid metabolic process",-2.09873193500904,1.79435265481252e-05,163
+"NAFL_vs_Control","Higher in Control","GO:0170040","proteinogenic amino acid catabolic process",-2.30671907610175,5.71912914106469e-05,64
+"NAFL_vs_Control","Higher in Control","GO:0009072","aromatic amino acid metabolic process",-2.29479079729077,0.000262055218631121,34
+"NASH_vs_Control","Higher in NASH","GO:0022613","ribonucleoprotein complex biogenesis",3.193287659628,5.45101939012288e-55,450
+"NASH_vs_Control","Higher in NASH","GO:0042254","ribosome biogenesis",3.25332306288485,1.15213679353709e-45,309
+"NASH_vs_Control","Higher in NASH","GO:0016072","rRNA metabolic process",2.9689729576777,1.87139255135918e-30,261
+"NASH_vs_Control","Higher in NASH","GO:0006364","rRNA processing",3.01290979044051,4.58814465182579e-29,220
+"NASH_vs_Control","Higher in NASH","GO:0002181","cytoplasmic translation",2.94614758257035,6.69714485465661e-22,158
+"NASH_vs_Control","Higher in NASH","GO:0042274","ribosomal small subunit biogenesis",3.05534446302473,3.45985418453652e-21,108
+"NASH_vs_Control","Higher in NASH","GO:0071826","protein-RNA complex organization",2.61321172470275,1.63734355747598e-16,197
+"NASH_vs_Control","Higher in NASH","GO:0022618","protein-RNA complex assembly",2.61075360051898,4.92455769993334e-16,188
+"NASH_vs_Control","Higher in NASH","GO:0006417","regulation of translation",2.28091764485495,1.61841938001022e-13,337
+"NASH_vs_Control","Higher in NASH","GO:0042273","ribosomal large subunit biogenesis",2.93808551352374,2.0817496352764e-13,61
+"NASH_vs_Control","Higher in Control","GO:0016054","organic acid catabolic process",-2.20406293195873,9.25575418635252e-09,227
+"NASH_vs_Control","Higher in Control","GO:0046395","carboxylic acid catabolic process",-2.20406293195873,9.25575418635252e-09,227
+"NASH_vs_Control","Higher in Control","GO:0044282","small molecule catabolic process",-1.81962653898322,4.37866554256847e-06,334
+"NASH_vs_Control","Higher in Control","GO:0043062","extracellular structure organization",-1.83873866101712,2.76789654857424e-05,256
+"NASH_vs_Control","Higher in Control","GO:0045229","external encapsulating structure organization",-1.82560258561585,4.15217383775843e-05,256
+"NASH_vs_Control","Higher in Control","GO:0009063","amino acid catabolic process",-2.08287835581121,7.853101043838e-05,101
+"NASH_vs_Control","Higher in Control","GO:1901606","alpha-amino acid catabolic process",-2.1030756448994,0.000121994777741107,89
+"NASH_vs_Control","Higher in Control","GO:0030198","extracellular matrix organization",-1.82489960374418,0.000121994777741107,255
+"NASH_vs_Control","Higher in Control","GO:0048705","skeletal system morphogenesis",-1.85324080737053,0.000407886382008218,151
+"NASH_vs_Control","Higher in Control","GO:0120316","sperm flagellum assembly",-2.13664190970885,0.00104393386876352,32
+"NASH_vs_NAFL","Higher in NASH","GO:0022613","ribonucleoprotein complex biogenesis",3.30883889315051,3.36021149545138e-63,450
+"NASH_vs_NAFL","Higher in NASH","GO:0042254","ribosome biogenesis",3.35730863545477,3.85134451223594e-51,309
+"NASH_vs_NAFL","Higher in NASH","GO:0006364","rRNA processing",3.19894244976148,1.01420041256769e-36,220
+"NASH_vs_NAFL","Higher in NASH","GO:0016072","rRNA metabolic process",3.15561549268221,2.95984940992801e-36,261
+"NASH_vs_NAFL","Higher in NASH","GO:0042274","ribosomal small subunit biogenesis",3.11802388094933,1.45334039492288e-22,108
+"NASH_vs_NAFL","Higher in NASH","GO:0002181","cytoplasmic translation",2.96578578117168,3.49348171752674e-22,158
+"NASH_vs_NAFL","Higher in NASH","GO:0006397","mRNA processing",2.26224615399081,7.85455438462166e-18,450
+"NASH_vs_NAFL","Higher in NASH","GO:0022618","protein-RNA complex assembly",2.67080548392775,1.231719659754e-17,188
+"NASH_vs_NAFL","Higher in NASH","GO:0071826","protein-RNA complex organization",2.64763273771949,4.06917009301871e-17,197
+"NASH_vs_NAFL","Higher in NASH","GO:0042273","ribosomal large subunit biogenesis",3.019828253747,7.88162636915017e-15,61
+"NASH_vs_NAFL","Higher in NAFL","GO:0030198","extracellular matrix organization",-2.40684705614734,3.90195651242972e-14,255
+"NASH_vs_NAFL","Higher in NAFL","GO:0045229","external encapsulating structure organization",-2.3992338161298,3.90195651242972e-14,256
+"NASH_vs_NAFL","Higher in NAFL","GO:0043062","extracellular structure organization",-2.39842469539302,3.90195651242972e-14,256
+"NASH_vs_NAFL","Higher in NAFL","GO:0001501","skeletal system development",-1.94007518242915,1.51653036613937e-08,380
+"NASH_vs_NAFL","Higher in NAFL","GO:0007389","pattern specification process",-1.99597896316313,2.78315948914533e-08,303
+"NASH_vs_NAFL","Higher in NAFL","GO:0003002","regionalization",-2.01494250700335,3.08270573475653e-08,273
+"NASH_vs_NAFL","Higher in NAFL","GO:0048598","embryonic morphogenesis",-1.83940945019634,1.52491522303138e-07,451
+"NASH_vs_NAFL","Higher in NAFL","GO:0030199","collagen fibril organization",-2.46386915084897,1.97573774209949e-07,60
+"NASH_vs_NAFL","Higher in NAFL","GO:0007507","heart development",-1.78486156123512,3.7113548095693e-07,486
+"NASH_vs_NAFL","Higher in NAFL","GO:0048568","embryonic organ development",-1.88527774268603,1.19980603680772e-06,322
