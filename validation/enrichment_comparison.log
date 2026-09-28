@@ -1,0 +1,18 @@
+
+NAFL_vs_Control_GO_BP_GSEA.csv
+MATCH within numerical tolerance
+
+NASH_vs_Control_all_DEGs_GO_BP_ORA.csv
+MATCH within numerical tolerance
+
+NASH_vs_Control_downregulated_GO_BP_ORA.csv
+MATCH within numerical tolerance
+
+NASH_vs_Control_GO_BP_GSEA.csv
+MATCH within numerical tolerance
+
+NASH_vs_Control_upregulated_GO_BP_ORA.csv
+MATCH within numerical tolerance
+
+NASH_vs_NAFL_GO_BP_GSEA.csv
+MATCH within numerical tolerance

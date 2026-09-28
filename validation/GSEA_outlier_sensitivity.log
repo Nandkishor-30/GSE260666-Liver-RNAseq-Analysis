@@ -1,0 +1,47 @@
+'select()' returned 1:many mapping between keys and columns
+'select()' returned 1:many mapping between keys and columns
+'select()' returned 1:many mapping between keys and columns
+'select()' returned 1:many mapping between keys and columns
+NASH vs Control significant DEGs: 474
+Mapped significant DEGs: 413
+Mapped upregulated DEGs: 170
+Mapped downregulated DEGs: 243
+Mapped background genes: 15583
+NASH_vs_Control_all_DEGs - significant GO BP terms: 0
+NASH_vs_Control_upregulated - significant GO BP terms: 17
+NASH_vs_Control_downregulated - significant GO BP terms: 0
+'select()' returned 1:many mapping between keys and columns
+NAFL_vs_Control - genes in ranked GSEA list: 15564
+NAFL_vs_Control - significant GSEA GO BP terms: 292
+'select()' returned 1:many mapping between keys and columns
+NASH_vs_Control - genes in ranked GSEA list: 15564
+NASH_vs_Control - significant GSEA GO BP terms: 663
+'select()' returned 1:many mapping between keys and columns
+NASH_vs_NAFL - genes in ranked GSEA list: 15564
+NASH_vs_NAFL - significant GSEA GO BP terms: 655
+
+Functional enrichment analysis completed successfully.
+Warning messages:
+1: In bitr(clean_ids, fromType = "ENSEMBL", toType = c("ENTREZID",  :
+  12.74% of input gene IDs are fail to map...
+2: In bitr(clean_ids, fromType = "ENSEMBL", toType = c("ENTREZID",  :
+  13.5% of input gene IDs are fail to map...
+3: In bitr(clean_ids, fromType = "ENSEMBL", toType = c("ENTREZID",  :
+  8.15% of input gene IDs are fail to map...
+4: In bitr(clean_ids, fromType = "ENSEMBL", toType = c("ENTREZID",  :
+  16.9% of input gene IDs are fail to map...
+5: In bitr(unique(d$ENSEMBL_clean), fromType = "ENSEMBL", toType = "ENTREZID",  :
+  12.73% of input gene IDs are fail to map...
+6: In preparePathwaysAndStats(pathways, stats, minSize, maxSize, gseaParam,  :
+  There are ties in the preranked stats (1.09% of the list).
+The order of those tied genes will be arbitrary, which may produce unexpected results.
+7: In bitr(unique(d$ENSEMBL_clean), fromType = "ENSEMBL", toType = "ENTREZID",  :
+  12.73% of input gene IDs are fail to map...
+8: In preparePathwaysAndStats(pathways, stats, minSize, maxSize, gseaParam,  :
+  There are ties in the preranked stats (1.08% of the list).
+The order of those tied genes will be arbitrary, which may produce unexpected results.
+9: In bitr(unique(d$ENSEMBL_clean), fromType = "ENSEMBL", toType = "ENTREZID",  :
+  12.73% of input gene IDs are fail to map...
+10: In preparePathwaysAndStats(pathways, stats, minSize, maxSize, gseaParam,  :
+  There are ties in the preranked stats (1.11% of the list).
+The order of those tied genes will be arbitrary, which may produce unexpected results.

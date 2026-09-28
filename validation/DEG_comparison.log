@@ -1,0 +1,18 @@
+
+NAFL_vs_Control_all_genes.csv
+MATCH within numerical tolerance
+
+NAFL_vs_Control_significant_DEGs.csv
+MATCH within numerical tolerance
+
+NASH_vs_Control_all_genes.csv
+MATCH within numerical tolerance
+
+NASH_vs_Control_significant_DEGs.csv
+MATCH within numerical tolerance
+
+NASH_vs_NAFL_all_genes.csv
+MATCH within numerical tolerance
+
+NASH_vs_NAFL_significant_DEGs.csv
+MATCH within numerical tolerance

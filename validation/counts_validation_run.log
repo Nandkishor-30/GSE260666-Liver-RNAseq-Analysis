@@ -1,0 +1,165 @@
+
+
+Genes in featureCounts file: 78894
+Columns in featureCounts file: 22
+
+Sample matching successful.
+
+Control    NAFL    NASH
+      6       6       4
+
+Genes before filtering: 78894
+Genes after filtering: 17679
+estimating size factors
+estimating dispersions
+gene-wise dispersion estimates
+mean-dispersion relationship
+final dispersion estimates
+fitting model and testing
+using ntop=500 top features by variance
+null device
+          1
+
+ NAFL vs Control
+Significant DEGs: 17
+Upregulated: 10
+Downregulated: 7
+
+ NASH vs Control
+Significant DEGs: 474
+Upregulated: 184
+Downregulated: 290
+
+ NASH vs NAFL
+Significant DEGs: 28
+Upregulated: 10
+Downregulated: 18
+
+DESeq2 analysis completed successfully.
+NAFL_vs_Control : 17 annotated significant DEGs
+NASH_vs_Control : 474 annotated significant DEGs
+NASH_vs_NAFL : 28 annotated significant DEGs
+
+Annotation completed successfully.
+Warning message:
+Removed 1736 rows containing missing values or values outside the scale range
+(`geom_point()`).
+Warning message:
+Removed 1393 rows containing missing values or values outside the scale range
+(`geom_point()`).
+Warning message:
+Removed 1736 rows containing missing values or values outside the scale range
+(`geom_point()`).
+null device
+          1
+Volcano plots and DEG heatmap completed successfully.
+'select()' returned 1:many mapping between keys and columns
+Warning message:
+In bitr(clean_ids, fromType = "ENSEMBL", toType = c("ENTREZID",  :
+  12.74% of input gene IDs are fail to map...
+'select()' returned 1:many mapping between keys and columns
+Warning message:
+In bitr(clean_ids, fromType = "ENSEMBL", toType = c("ENTREZID",  :
+  13.5% of input gene IDs are fail to map...
+'select()' returned 1:many mapping between keys and columns
+Warning message:
+In bitr(clean_ids, fromType = "ENSEMBL", toType = c("ENTREZID",  :
+  8.15% of input gene IDs are fail to map...
+'select()' returned 1:many mapping between keys and columns
+Warning message:
+In bitr(clean_ids, fromType = "ENSEMBL", toType = c("ENTREZID",  :
+  16.9% of input gene IDs are fail to map...
+NASH vs Control significant DEGs: 474
+Mapped significant DEGs: 413
+Mapped upregulated DEGs: 170
+Mapped downregulated DEGs: 243
+Mapped background genes: 15583
+NASH_vs_Control_all_DEGs - significant GO BP terms: 0
+NASH_vs_Control_upregulated - significant GO BP terms: 17
+NASH_vs_Control_downregulated - significant GO BP terms: 0
+'select()' returned 1:many mapping between keys and columns
+NAFL_vs_Control - genes in ranked GSEA list: 15583
+NAFL_vs_Control - significant GSEA GO BP terms: 307
+Warning messages:
+1: In bitr(unique(d$ENSEMBL_clean), fromType = "ENSEMBL", toType = "ENTREZID",  :
+  12.74% of input gene IDs are fail to map...
+2: In preparePathwaysAndStats(pathways, stats, minSize, maxSize, gseaParam,  :
+  There are ties in the preranked stats (1.08% of the list).
+The order of those tied genes will be arbitrary, which may produce unexpected results.
+'select()' returned 1:many mapping between keys and columns
+NASH_vs_Control - genes in ranked GSEA list: 15583
+NASH_vs_Control - significant GSEA GO BP terms: 660
+Warning messages:
+1: In bitr(unique(d$ENSEMBL_clean), fromType = "ENSEMBL", toType = "ENTREZID",  :
+  12.74% of input gene IDs are fail to map...
+2: In preparePathwaysAndStats(pathways, stats, minSize, maxSize, gseaParam,  :
+  There are ties in the preranked stats (1.08% of the list).
+The order of those tied genes will be arbitrary, which may produce unexpected results.
+'select()' returned 1:many mapping between keys and columns
+NASH_vs_NAFL - genes in ranked GSEA list: 15583
+NASH_vs_NAFL - significant GSEA GO BP terms: 647
+Warning messages:
+1: In bitr(unique(d$ENSEMBL_clean), fromType = "ENSEMBL", toType = "ENTREZID",  :
+  12.74% of input gene IDs are fail to map...
+2: In preparePathwaysAndStats(pathways, stats, minSize, maxSize, gseaParam,  :
+  There are ties in the preranked stats (1.1% of the list).
+The order of those tied genes will be arbitrary, which may produce unexpected results.
+
+Functional enrichment analysis completed successfully.
+Final enrichment summary tables created successfully.
+dds: 17679 genes x 16 samples
+
+Control    NAFL    NASH
+      6       6       4
+
+TOP BIOTYPES (mean % of counts):
+                    protein_coding                            Mt_rRNA
+                             96.96                               1.55
+                            lncRNA             unprocessed_pseudogene
+                              1.15                               0.16
+                         IG_C_gene               processed_pseudogene
+                              0.05                               0.05
+transcribed_unprocessed_pseudogene                                TEC
+                              0.03                               0.02
+                         IG_V_gene                           artifact
+                              0.01                               0.01
+                           Mt_tRNA   transcribed_processed_pseudogene
+                              0.00                               0.00
+
+rRNA share per sample (%):
+SRR28195701 SRR28195702 SRR28195703 SRR28195704 SRR28195705 SRR28195706
+      0.429       1.035       0.621       3.067       0.321       0.773
+SRR28195707 SRR28195708 SRR28195709 SRR28195710 SRR28195711 SRR28195712
+      0.966       0.589       0.806       2.899       1.009       3.118
+SRR28195713 SRR28195714 SRR28195715 SRR28195716
+      4.031       1.256       0.191       3.694
+null device
+          1
+using 'apeglm' for LFC shrinkage. If used in published research, please cite:
+    Zhu, A., Ibrahim, J.G., Love, M.I. (2018) Heavy-tailed prior distributions for
+    sequence count data: removing the noise and preserving large differences.
+    Bioinformatics. https://doi.org/10.1093/bioinformatics/bty895
+using 'apeglm' for LFC shrinkage. If used in published research, please cite:
+    Zhu, A., Ibrahim, J.G., Love, M.I. (2018) Heavy-tailed prior distributions for
+    sequence count data: removing the noise and preserving large differences.
+    Bioinformatics. https://doi.org/10.1093/bioinformatics/bty895
+using 'ashr' for LFC shrinkage. If used in published research, please cite:
+    Stephens, M. (2016) False discovery rates: a new deal. Biostatistics, 18:2.
+    https://doi.org/10.1093/biostatistics/kxw041
+                       contrast tested padj05 sig
+NAFL_vs_Control NAFL_vs_Control  15943     17  15
+NASH_vs_Control NASH_vs_Control  16286    825 337
+NASH_vs_NAFL       NASH_vs_NAFL  15943     36   1
+markers found: 11 of 12
+      gene expr.Control expr.NAFL expr.NASH
+1  AKR1B10     5.299351  5.995158  8.071601
+2     CCL2     7.589518  8.088559  9.039638
+3   COL1A1     9.278104  9.994899  8.857507
+4   COL1A2     9.126143  9.918657  8.975904
+5   COL3A1    10.236391 11.114540 10.307815
+6    EPCAM     6.348312  6.151857  6.600505
+7    KRT19     6.258301  5.838098  6.920836
+8      LUM     8.013284  8.143471  8.008325
+9     SPP1     9.338552  9.486957 10.212946
+10   THBS2     7.587500  8.666837  7.883538
+11   TIMP1    11.216596 11.561152 10.803985

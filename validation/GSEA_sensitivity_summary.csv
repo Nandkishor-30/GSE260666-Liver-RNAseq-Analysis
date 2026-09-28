@@ -1,0 +1,4 @@
+"comparison","original_terms","sensitivity_terms","shared_terms","retained_percent","lost_terms","gained_terms","direction_reversals"
+"NAFL_vs_Control",307,292,280,91.2,27,12,0
+"NASH_vs_Control",660,663,621,94.1,39,42,0
+"NASH_vs_NAFL",647,655,626,96.8,21,29,0
