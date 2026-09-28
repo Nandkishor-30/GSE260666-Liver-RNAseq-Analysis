@@ -1,0 +1,33 @@
+# OS junk
+.DS_Store
+Thumbs.db
+
+# editor junk
+*.swp
+.Rhistory
+.Rproj.user/
+
+# large intermediate files if the pipeline is re-run locally
+# (raw/aligned data is not part of this repo - see README > Reproducibility)
+fastq/
+sra/
+aligned/
+star_index/
+reference/
+tmp/
+logs/
+*.bam
+*.bai
+*.sra
+
+# Local environments and regenerated R objects
+envs/
+.venv/
+*.rds
+.RData
+__pycache__/
+*.pyc
+
+/backup_before_review_*/
+/R_install_retry.log
+/scripts/*.bak
