@@ -1,4 +1,4 @@
-# Human Liver RNA-seq Analysis: Control, NAFL and NASH
+# NAFL–NASH Liver RNA-seq Analysis.
 
 A learning project investigating gene expression differences across **16 public human liver samples** from **GSE260666**: 6 Control, 6 NAFL and 4 NASH samples.
 
